@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(24, 23, 23);
+}
+h1 {
+    text-align: left;
+    font-family: serif;
+    font-size: 40px; 
+    color:rgb(254, 251, 251); 
+    text-align: center;
+}
+
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    font-size: 15px;
+
+}
+select {
+    color:white;
+    padding:0%;
+    border-radius:10px; 
+    background-color: #701010;  
+    width:7vw;
+}
+img {
+    height :90vh; 
+    width :100vw;
+    align-items: center;
+    
+}
+h4 {
+
+    color: aliceblue;
+    text-align: inherit;
+}
+
+.paragraph{
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+
+
+.searchBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:  translate(-50%,50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+
+.searchBox:hover > .searchInput {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.searchBox:hover > .searchButton {
+  background: white;
+  color : #2f3640;
+}
+
+.searchButton {
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.searchInput {
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+
+}
+
+@media screen and (max-width: 620px) {
+.searchBox:hover > .searchInput {
+    width: 150px;
+    padding: 0 6px;
+}
+}
+
+
+.img1{
+    height:50vh;
+    width:auto;
+    padding-top:1%;
+}
+
+
+.h3{
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.price{
+    font-size:15px ;
+    color:white;
+    font-size: 12px;
+}
+.image2{
+    height:50vh;
+    width:auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.price2{
+    color:white;
+    font-size: 12px;
+}
+.image3{
+   height: 50vh;
+   width:auto;
+}
+.price3{
+    color:white;
+    font-size:12px;
+}
